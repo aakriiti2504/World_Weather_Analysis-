@@ -84,29 +84,29 @@ Once the API has reached the website or server, its endpoint, and now we can ret
 
 #### Deliverable 1:
 How we will get the weather data for each city for the website. We will need to do the following:
-•	Import our dependencies and initialize counters and an empty list that will hold the weather data.
-•	Loop through the cities list.
-•	Group the cities in sets of 50 to log the process as we find the weather data for each city.
-•	Two counters will be needed here: one to log the city count from 1 to 50, and another for the sets.
-•	Build the city_url or endpoint for each city.
-•	Log the URL and the record and set numbers.
-•	Make an API request for each city.
-•	Parse the JSON weather data for the following:
-•	City, country, and date
-•	Latitude and longitude
-•	Maximum temperature
-•	Humidity
-•	Cloudiness
-•	Wind speed
-•	Add the data to a list in a dictionary format and then convert the list to a DataFrame.
-•	Save the data into a .csv file.
+-	Import our dependencies and initialize counters and an empty list that will hold the weather data.
+-	Loop through the cities list.
+-	Group the cities in sets of 50 to log the process as we find the weather data for each city.
+-	Two counters will be needed here: one to log the city count from 1 to 50, and another for the sets.
+-	Build the city_url or endpoint for each city.
+-	Log the URL and the record and set numbers.
+-	Make an API request for each city.
+-	Parse the JSON weather data for the following:
+-	City, country, and date
+-	Latitude and longitude
+-	Maximum temperature
+-	Humidity
+-	Cloudiness
+-	Wind speed
+-	Add the data to a list in a dictionary format and then convert the list to a DataFrame.
+-	Save the data into a .csv file.
 
 #### Deliverable 2:
 Google makes available some of the vast sets of tools that power Google Maps, so that any developer, can use the same technologies and datasets in their own applications. These APIs help developers perform the following tasks:
-•	Convert latitudinal and longitudinal coordinates into locations on a map.
-•	Create a heatmap based on the density or weight of a feature, such as an earthquake.
-•	Identify the hotels or restaurants closest to a given location.
-•	Determine the distance between two points. To create custom maps with Google, we will install the gmaps dependency, which is a Jupyter plugin for embedding Google Maps in your notebooks. Using gmaps, we'll create heatmaps and location markers for hotels within a certain radius of the cities where our customers travel. To create this heatmap, we'll need to register for a Google Maps and Places API key on the Google Developer site.
+-	Convert latitudinal and longitudinal coordinates into locations on a map.
+-	Create a heatmap based on the density or weight of a feature, such as an earthquake.
+-	Identify the hotels or restaurants closest to a given location.
+-	Determine the distance between two points. To create custom maps with Google, we will install the gmaps dependency, which is a Jupyter plugin for embedding Google Maps in your notebooks. Using gmaps, we'll create heatmaps and location markers for hotels within a certain radius of the cities where our customers travel. To create this heatmap, we'll need to register for a Google Maps and Places API key on the Google Developer site.
 
 #### Deliverable 3:
 Using the Google Directions API to create a travel itinerary that shows the route between four cities chosen from the customer’s possible travel destinations. We wil then create a marker layer map with a pop-up marker for each city on the itinerary.
